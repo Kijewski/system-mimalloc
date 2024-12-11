@@ -1,7 +1,8 @@
 [package]
 name = "system-mimalloc"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["René Kijewski <crates.io@k6i.de>"]
+repository = "https://github.com/Kijewski/system-mimalloc"
 edition = "2015"
 rust-version = "1.38"
 license = "MIT OR MIT-0"
