@@ -4,7 +4,7 @@
 [![Crates.io](https://img.shields.io/crates/v/system-mimalloc?logo=rust&style=flat-square "Crates.io")](https://crates.io/crates/system-mimalloc)
 [![docs.rs](https://img.shields.io/docsrs/system-mimalloc?logo=docsdotrs&style=flat-square&logoColor=white "docs.rs")](https://docs.rs/system-mimalloc/)
 ![Minimum supported Rust version: 1.38](https://img.shields.io/badge/rustc-1.38+-informational?logo=rust&style=flat-square "Minimum Supported Rust Version: 1.38")
-[![License: MIT-0](https://img.shields.io/badge/license-MIT--0-informational?logo=apache&style=flat-square)](https://github.com/Kijewski/system-mimalloc/blob/v1.0.0-pre.0/LICENSE.md "License: MIT-0")
+[![License: MIT-0](https://img.shields.io/badge/license-MIT--0-informational?logo=apache&style=flat-square)](https://github.com/Kijewski/system-mimalloc/blob/v1.0.0/LICENSE.md "License: MIT-0")
 
 A drop-in global allocator using the system's shared [mimalloc](https://github.com/microsoft/mimalloc) library.
 Mimalloc is a general purpose, performance oriented allocator built by Microsoft.
