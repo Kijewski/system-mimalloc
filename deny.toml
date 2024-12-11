@@ -1,0 +1,8 @@
+[graph]
+all-features = true
+
+[advisories]
+git-fetch-with-cli = true
+
+[licenses]
+allow = ["MIT-0"]

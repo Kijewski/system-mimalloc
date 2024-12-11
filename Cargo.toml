@@ -1,0 +1,50 @@
+[package]
+name = "system-mimalloc"
+version = "1.0.0-rc.0"
+authors = ["René Kijewski <crates.io@k6i.de>"]
+edition = "2015"
+rust-version = "1.38"
+license = "MIT OR MIT-0"
+description = "Use the system's shared mimalloc library as allocator"
+categories = ["api-bindings", "memory-management", "no-std", "rust-patterns"]
+keywords = ["allocator", "linux", "mimalloc", "no_std", "performance"]
+links = "mimalloc"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--generate-link-to-definition", "--cfg=docsrs"]
+default-target = "x86_64-unknown-linux-gnu"
+targets = []
+
+[lints.rust]
+absolute_paths_not_starting_with_crate = "warn"
+elided_lifetimes_in_paths = "warn"
+explicit_outlives_requirements = "warn"
+meta_variable_misuse = "warn"
+missing_copy_implementations = "warn"
+missing_debug_implementations = "warn"
+missing_docs = "warn"
+non_ascii_idents = "warn"
+noop_method_call = "warn"
+single_use_lifetimes = "warn"
+trivial_casts = "warn"
+unreachable_pub = "warn"
+unused_crate_dependencies = "warn"
+warnings = "warn"
+
+[lints.clippy]
+collapsible_match = "warn"
+expect_used = "warn"
+match_bool = "warn"
+match_ref_pats = "warn"
+match_same_arms = "warn"
+match_single_binding = "warn"
+needless_bool = "deny"
+needless_late_init = "warn"
+needless_match = "warn"
+redundant_guards = "warn"
+redundant_pattern = "warn"
+redundant_pattern_matching = "warn"
+single_match = "warn"
+single_match_else = "warn"
+unwrap_used = "warn"
